@@ -32,13 +32,14 @@ else if (ua.indexOf('safari') > -1) {
 } else if (ua.indexOf('firefox') > -1) {
 	browser = 'firefox';
 }
-
+console.log(ua)
 
 var globalUndo;
 (function($){
         
         // consts
         var rad = Math.PI/180;
+	console.log(rad)
         var vendorPrefix = (function() {
                 var prefix,
                         prefixes = {
